@@ -11,6 +11,7 @@ Create a simple Django **RESTful** application that:
 4. If an unauthenticated request is made to the same endpoint, return the stastistics.
 5. New users can be added via the Django admin.
 6. Bonus: SaaS! Users can belong to teams and only their teams stats are returned.
+Note: If something is not clear in the above requirements, just leave an explanation in the code (where you made a decision), or make it clear from the code what you mean to do.
 
 ## Guidelines
 
