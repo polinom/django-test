@@ -11,7 +11,7 @@ from teams_happiness.users.views import UserViewSet
 
 router = DefaultRouter()
 router.register(r"users", UserViewSet)
-
+# test
 urlpatterns = [
     path("", TemplateView.as_view(template_name="pages/home.html"), name="home"),
     path("about/", TemplateView.as_view(template_name="pages/about.html"), name="about"),
